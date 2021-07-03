@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" async></script>
+    <title>amaysim project</title>    
+</head>
+<body>
+    <header>
+        <h1>amaysim</h1>
+    </header>
+    <main>
+        CATALOUGE
+        <table>
+            <thead>
+                <tr>
+                    <td>PRODUCT CODE</td>
+                    <td>PRODUCT NAME</td>
+                    <td>PRICE</td>
+                    <td></td>   
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="shop-product">
+                    <tr id="ult_small">
+                        <td class="shop-product-code">ult_small</td>
+                        <td class="shop-product-title">Unlimited 1GB</td>
+                        <td class="shop-product-price">$24.90</td>
+                        <td><button class="btn shop-product-button" type="button">ADD TO CART</button></td>
+                    </tr>
+                    <tr id="ult_medium">
+                        <td class="shop-product-code">ult_medium</td>
+                        <td class="shop-product-title">Unlimited 2GB</td>
+                        <td class="shop-product-price">$29.90</td>
+                        <td><button class="btn shop-product-button" type="button">ADD TO CART</button></td>
+                    </tr>
+                    <tr id="ult_large">
+                        <td class="shop-product-code">ult_large</td>
+                        <td class="shop-product-title">Unlimited 5GB</td>
+                        <td class="shop-product-price">$44.90</td>
+                        <td><button class="btn shop-product-button" type="button">ADD TO CART</button></td>
+                    </tr>
+                    <tr id="1gb">
+                        <td class="shop-product-code">1gb</td>
+                        <td class="shop-product-title">1 GB Data-pack</td>
+                        <td class="shop-product-price">$9.90</td>
+                        <td><button class="btn shop-product-button" type="button">ADD TO CART</button></td>
+                    </tr>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        CART
+        <table>
+            <thead>
+                <tr>
+                    <td>PRODUCT CODE</td>
+                    <td>PRODUCT NAME</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>&nbsp;</td>           
+                </tr>
+            </thead>
+            <tbody class="cart-row">
+                <tr class="cart-items">
+                    
+                </tr>
+                <tr class="cart-promo">
+                    <td colspan=5>Promo code <input type="text" name="" id="" placeholder="Enter promo code" value="" class="cart-promo-code"> <button class="btn btn-apply" type="button">APPLY</button></td>
+                </tr>
+                <tr class="cart-subtotal">
+                    <td colspan=5>Subtotal <span class="cart-subtotal-price">$0.00</span></td>
+                </tr>
+                <tr class="cart-discount">
+                    <td colspan=5>
+                        Discount <span class="cart-discount-price">$0.00</span><br>
+                        <em><span class="cart-discount-desc"></span></em>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan=5>
+                        <strong class="cart-total-title">Total
+                        <span class="cart-total-price">$0.00</span></strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan=5><button class="btn-checkout" type="button">CHECKOUT</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <br>
+    <footer>&copy 2021</footer>
+</body>
+</html>

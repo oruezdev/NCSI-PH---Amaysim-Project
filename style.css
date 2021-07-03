@@ -1,0 +1,12 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead {
+    font-weight: bolder;
+}
