@@ -69,22 +69,6 @@ function addItemToCart(code, title, price) {
     cartRow.getElementsByClassName('btn-remove')[0].addEventListener('click', removeCartItem)
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
 
-    // var table = document.getElementsByClassName("cart-row")[0];
-    // var row = table.insertRow(0);
-    // var cell1 = row.insertCell(0);
-    // var cell2 = row.insertCell(1);
-    // var cell3 = row.insertCell(2);
-    // var cell4 = row.insertCell(3);
-    // var cell5 = row.insertCell(4);
-    // cell1.innerHTML = `<span class="cart-product-code">${code}</span>`;
-    // cell2.innerHTML = `<span class="cart-item-title">${title}</span>`;
-    // cell3.innerHTML = `<span class="cart-price">${price}</span>`;
-    // cell4.innerHTML = `<input class="cart-quantity-input" type="number" value="1" min="1" max="100" onKeyDown="return false">`;
-    // cell5.innerHTML = `<button class="btn-remove" type="button">REMOVE</button>`;
-
-    // row.getElementsByClassName('btn-remove')[0].addEventListener('click', removeCartItem)
-    // row.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
-    // updateCartTotal()
 }
 
 function checkoutClicked() {
