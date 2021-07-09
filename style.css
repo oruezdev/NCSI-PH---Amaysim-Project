@@ -7,6 +7,6 @@ table, tr, td{
     border-collapse: collapse;
 }
 
-.cart-header {
+.header {
     font-weight: bolder;
 }
